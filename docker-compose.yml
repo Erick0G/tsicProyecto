@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql
+    container_name: tsic-mysql
+    environment:
+      MYSQL_DATABASE: ventaautos
+      MYSQL_USER: erick
+      MYSQL_PASSWORD: admin
+      MYSQL_ROOT_PASSWORD: admin
+    ports:
+      - "3306:3306"
+    restart: always
+    
+  web:
+    image: erick0g/tsic
+    container_name: tsic-php
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www/html
+    links:
+      - mysql

@@ -1,0 +1,61 @@
+body{
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.pacifico{
+  font-family: 'Pacifico', cursive;
+}
+.title{
+  font-size: 2.5em; 
+  margin-top: 0;
+}
+.main-header{
+  background-color:#00DCFF;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom:45px;
+}
+.nav-link{
+  color:white;
+  margin-right:4px;
+}
+.text-center{
+  text-align:center;
+}
+.red-text{
+  color:#F45B69;
+}
+.main-container{
+  min-height: 50vh;
+}
+.producto img{
+  width: 210px;
+  height: 150px;
+}
+.card{
+  border-radius:10px;
+  color:black;
+  border-color: #5e3436;
+  box-shadow: 1px 4px 6px rgba(0,0,0,0.12), 2px 4px 6px rgba(0,0,0,0.24);
+}
+.producto h3{
+  font-size: 1em;
+  margin-top:5px;
+  margin-bottom: 5px;
+} 
+.recuadro{
+  background-color:#5e3436;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:20px;
+  padding-bottom:10px;
+}
+.text-recuadro{
+  color:#FFFFFF;
+  font-size: 1.6em;
+  font-family: TIMES NEW ROMAN;
+}
+#galeria {
+  display: flex;
+  justify-content: space-between;
+}
